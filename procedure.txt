@@ -1,5 +1,5 @@
 
-After downloading this file change the extract and change the folder name as file_manager. and remove the both readme.txt and ReadMe.md files they are olny for guidance.
+After downloading this file extract it and change the folder name as file_manager. and remove the both procedure.txt and ReadMe.md files they are olny for guidance.
 
 /**
 *@file
