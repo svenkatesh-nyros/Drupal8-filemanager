@@ -1,0 +1,12 @@
+.sharemsg1{
+	color:orange;
+	font-size: 14px;
+	margin:1em;
+}
+.sharemsg{
+	color:red;
+	font-size: 14px;
+}
+#files_list_view{
+	width:100% !important;
+}
