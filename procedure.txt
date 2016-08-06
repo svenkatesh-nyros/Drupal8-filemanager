@@ -1,0 +1,30 @@
+/**
+*@file
+* This is the custom module of file_manager in drupal 8 version.
+*/
+* Install it as a normal module installtion.
+goto /localhost/your project/admin/modules
+click the button of "Install new Module"
+Then upload the file_manager.zip folder of this module.
+
+* It will be stored in your "drupal/modules" folder.
+*Goto /admin/modules and search for the file manager in the list of modules.
+
+*Select the checkbox of file manager module and click the install button to enable this module in your Drupal website.
+*The module will be installed successfully.
+*Then clear the cache from the following url in order to run the file manager module works perfectly.
+ /admin/config/development/performance "clear cache"
+
+*After that goto the following url to check the file_manager working or not.
+http:/localhost/your project/files
+
+then the files page is displayed with the features of upload file ,list of all the uploaded files in a table with the features of share and delete and pagination of fields 5 items per page.
+You can select how many items per page by modifying it in the modules/file_manager/src/Controller/FileManagerController.php file change the limit="10" or whatever you want.
+
+If you want to share the url of the selected file from the list you need to install the smtp module and it must be enabled.
+
+Thank you for Reading This.
+
+If you have any doubts regarding this feel free to ask me.
+
+
