@@ -1,0 +1,12 @@
+file_manager_css: 
+   version: 1.x
+   css:
+     theme: 
+        css/share.css: {}
+   js:
+     js/share.js: {}
+   
+   dependencies:
+      - core/jquery
+      - core/drupal.ajax
+      - core/drupalSettings
