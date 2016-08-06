@@ -1,0 +1,5 @@
+name: File Manager Module
+description: "Custom file_manager module for providing the features of upload,list,share and delete the files."
+type: module
+core: 8.x
+package: custom
