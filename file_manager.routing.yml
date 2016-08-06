@@ -1,0 +1,25 @@
+
+file_manager_list:
+   path: '/files'
+   defaults:
+      _controller: 'Drupal\file_manager\Controller\FileManagerController::content'
+      _title: 'File Manager'
+   requirements:
+      _permission: 'post comments'
+
+file_share:
+   path: '/share/{id}'
+   defaults: 
+     _form: '\Drupal\file_manager\Form\ShareFile'
+     _title: 'Share'
+   requirements: 
+     _permission: 'post comments'
+
+file_delete: 
+   path: '/delete/{id}'
+   defaults: 
+     _form: 'Drupal\file_manager\Form\DeleteFile'
+     _title: 'Delete File'
+   requirements: 
+     _permission: 'post comments'
+
